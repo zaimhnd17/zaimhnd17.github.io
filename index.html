@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huda Bahri & Co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+	<!-- Include Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-image: url('https://image.fluxpro.ai/custom/81cf8eca-fe46-478a-acd7-de728ebe1dae.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        section {
+            padding: 100px 0;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        #home {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+        }
+        .navbar-nav .nav-link {
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+        }
+        #scrollToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        #scrollToTop:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="padding: 0;">
+		Huda Bahri & Co<br>
+    		<small><small>Chartered Accountants</small></small><br>
+    		<small><small>NF2949</small></small>
+	    </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+   <section id="home" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image-url.jpg') no-repeat center center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; color: #fff;">
+		<div class="container text-center" style="max-width: 800px;">
+			<h1 style="font-size: 3rem; font-weight: bold; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Navigating Your Financial Future with Expertise</h1>
+			<p style="font-size: 1.2rem; margin-top: 20px; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);">Your trusted partner in achieving financial success through professional guidance and expert solutions.</p>
+			<a href="#services" class="btn btn-primary" style="margin-top: 30px; padding: 15px 30px; font-size: 1.1rem; border-radius: 30px; background-color: #e63946; border: none;">Explore Our Services</a>
+		</div>
+	</section>
+	
+	<section id="aboutus" style="background-color: #034f84; padding: 80px 0; color: #fff;">
+		<div class="container text-center" style="max-width: 900px; margin: auto;">
+			<h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 20px; color: #87CEEB;">
+				Huda Bahri & Co - Your Trusted Accounting Partner
+			</h1>
+			<p style="font-size: 1.2rem; line-height: 1.6; color: #fff;">
+				Huda Bahri & Co is an accounting firm under the Malaysian Institute of Accountants, dedicated to providing comprehensive and personalized accounting services for individuals and businesses across Malaysia. Our offerings include bookkeeping, accounting, business advisory services, and payroll management, all designed to meet your unique financial needs.
+			</p>
+			<p style="font-size: 1.2rem; line-height: 1.6; color: #fff;">
+				With a commitment to integrity and excellence, our experienced team ensures you receive expert guidance to help you navigate financial challenges and maximize growth. Let us take the stress out of your finances so you can focus on what you do best.
+			</p>
+			<a href="#contact" class="btn btn-primary" style="margin-top: 30px; padding: 15px 30px; font-size: 1.1rem; border-radius: 30px; background-color: #87CEEB; border: none;">Contact Us Today</a>
+		</div>
+	</section>
+
+    <section id="services" style="background-color: #f7f9fc; padding: 80px 0;">
+		<div class="container text-center">
+			<h1 style="font-size: 2.8rem; font-weight: bold; margin-bottom: 20px; color: #034f84;">Our Services</h1>
+			<p style="font-size: 1.2rem; color: #555;">Our accounting solutions focus on delivering precise financial insights that empower your business to thrive</p>
+			<div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+				<div class="col">
+					<div class="card h-100 text-dark shadow-lg border-0" style="transition: transform 0.3s;">
+						<div class="card-body text-center">
+							<i class="bi bi-bank fa-3x mb-3" style="color: #e63946;"></i>
+							<h5 class="card-title">Accounting</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 text-dark shadow-lg border-0" style="transition: transform 0.3s;">
+						<div class="card-body text-center">
+							<i class="bi bi-people-fill fa-3x mb-3" style="color: #e63946;"></i>
+							<h5 class="card-title">Business Advisory</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 text-dark shadow-lg border-0" style="transition: transform 0.3s;">
+						<div class="card-body text-center">
+							<i class="bi bi-cash-coin fa-3x mb-3" style="color: #e63946;"></i>
+							<h5 class="card-title">Business Financial</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 text-dark shadow-lg border-0" style="transition: transform 0.3s;">
+						<div class="card-body text-center">
+							<i class="bi bi-pen fa-3x mb-3" style="color: #e63946;"></i>
+							<h5 class="card-title">Company Registration</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 text-dark shadow-lg border-0" style="transition: transform 0.3s;">
+						<div class="card-body text-center">
+							<i class="bi bi-file-text-fill fa-3x mb-3" style="color: #e63946;"></i>
+							<h5 class="card-title">Company Secretary</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="pricing" style="background: linear-gradient(to right, #000428, #004e92); padding: 80px 0; color: #fff;">
+		<div class="container text-center">
+			<h1 style="font-size: 2.8rem; font-weight: bold; margin-bottom: 20px;">Accounting Services Package</h1>
+			<div class="table-responsive">
+				<table class="table table-bordered table-dark table-striped text-center" style="color: #fff; font-size: 1rem;">
+					<thead>
+						<tr style="background-color: #1f2a55;">
+							<th scope="col">FEATURES</th>
+							<th scope="col">BASIC PLAN</th>
+							<th scope="col">STANDARD PLAN</th>
+							<th scope="col">PREMIUM PLAN</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>PRICE</td>
+							<td>RM100 - RM300/YEAR</td>
+							<td>RM300 - RM500/MONTH</td>
+							<td>RM500 - RM1,000/MONTH</td>
+						</tr>
+						<tr>
+							<td>SME COMPANY</td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+						</tr>
+						<tr>
+							<td>FILE MANAGEMENT</td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+						</tr>
+						<tr>
+							<td>FREE CONSULTATION</td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+							<td><i class="fas fa-check" style="color: #00FF00;"></i></td>
+						</tr>
+						<tr>
+							<td>TYPE OF COMPANY</td>
+							<td>DORMANT</td>
+							<td>ACTIVE</td>
+							<td>ACTIVE</td>
+						</tr>
+						<tr>
+							<td>VOLUME OF TRANSACTION</td>
+							<td>LOW</td>
+							<td>LOW</td>
+							<td>HIGH</td>
+						</tr>
+						<tr>
+							<td>FULL SET OF ACCOUNT</td>
+							<td>PER YEAR</td>
+							<td>PER MONTH</td>
+							<td>PER MONTH</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="text-black" style="background-color: #D3D3D3; padding: 60px 0;">
+		<div class="container">
+			<div class="row">
+				<!-- Address Section on the Left -->
+				<div class="col-md-4 text-left">
+					<h1 style="font-size: 2.2rem; font-weight: bold; color: #034f84;">Our Address</h1>
+					<p style="font-size: 1.1rem; line-height: 1.6; margin-top: 20px;">
+						01-43A Maxim Citylights Sentul,<br>
+						25, Jln Sentul Pasar,<br>
+						51000 Kuala Lumpur,<br>
+						Wilayah Persekutuan,<br>
+						Malaysia
+					</p>
+				</div>
+				<!-- Google Map Embed in the Middle -->
+				<div class="col-md-4 text-center">
+					<h1 style="font-size: 2.2rem; font-weight: bold; color: #034f84;">Find Us</h1>
+					<div class="map-container" style="margin-top: 20px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15934.278885947582!2d101.690639!3d3.2070748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc47977c384781%3A0xde871ec27f575942!2sMaxim%20Citylights%20%40%20Sentul%20KL!5e0!3m2!1sen!2smy!4v1727062667640!5m2!1sen!2smy"
+							width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+				<!-- Contact Information on the Right -->
+				<div class="col-md-4 text-center">
+					<h1 style="font-size: 2.2rem; font-weight: bold; color: #034f84;">Contact Information</h1>
+					<p style="font-size: 1.1rem; line-height: 1.6; margin-top: 20px;">
+						<strong>Phone:</strong> +60 11-6197 7067<br>
+						<strong>Email:</strong> <a href="mailto:hudabahrico@gmail.com" style="color: #e63946; text-decoration: none;">hudabahrico@gmail.com</a>
+					</p>
+					<a href="mailto:hudabahrico@gmail.com?subject=Inquiry" class="btn btn-primary" style="margin-top: 20px; padding: 12px 30px; background-color: #e63946; border: none; font-size: 1.1rem; border-radius: 30px;">Send an Inquiry</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <!-- Footer -->
+    <footer style="background: linear-gradient(to right, #000428, #004e92); color: #fff; padding: 40px 0; position: relative; text-align: center;">
+		<div class="container">
+			<h5 style="font-size: 1.2rem; font-weight: bold; margin-bottom: 20px;">&copy; 2024 Huda Bahri & Co. All Rights Reserved.</h5>
+			
+			<!-- Social Media Links -->
+			<!-- <div style="margin-bottom: 20px;"> -->
+				<!-- <a href="#" style="color: #fff; margin: 0 15px; font-size: 1.5rem; text-decoration: none; transition: color 0.3s;"> -->
+					<!-- <i class="fab fa-facebook"></i> -->
+				<!-- </a> -->
+				<!-- <a href="#" style="color: #fff; margin: 0 15px; font-size: 1.5rem; text-decoration: none; transition: color 0.3s;"> -->
+					<!-- <i class="fab fa-twitter"></i> -->
+				<!-- </a> -->
+				<!-- <a href="#" style="color: #fff; margin: 0 15px; font-size: 1.5rem; text-decoration: none; transition: color 0.3s;"> -->
+					<!-- <i class="fab fa-linkedin"></i> -->
+				<!-- </a> -->
+				<!-- <a href="#" style="color: #fff; margin: 0 15px; font-size: 1.5rem; text-decoration: none; transition: color 0.3s;"> -->
+					<!-- <i class="fab fa-instagram"></i> -->
+				<!-- </a> -->
+			<!-- </div> -->
+			
+			<!-- Small Text -->
+			<p style="font-size: 0.9rem; margin-bottom: 10px;">Designed by Huda Bahri & Co. | Powered by Passion</p>
+		</div>
+	</footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" onclick="scrollToTop()">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Font Awesome Icon Script for checkmarks -->
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<!-- Font Awesome Icon Script for social icons -->
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Scroll to Top functionality
+        const scrollToTopButton = document.getElementById('scrollToTop');
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
